@@ -6,7 +6,7 @@
 
 Building practical AI systems with **Machine Learning, Retrieval-Augmented Generation, LLMs, FastAPI, and Python**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/kothapuli-vishnu-vardhan-reddy-8a9928287)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/kothapuli-vishnu-vardhan-reddy)
 [![Gmail](https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishnureddy93460@gmail.com)
 
 </div>

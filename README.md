@@ -2,8 +2,8 @@
 
 # Hi, I'm Vishnu Vardhan Reddy 👋
 
-### AI/ML Engineer in Training | GenAI & RAG Developer | Python Developer
-
+### Aspiring AI/ML Engineer| GenAI & RAG Developer | Python Developer
+ 
 Building practical AI systems with **Machine Learning, Retrieval-Augmented Generation, LLMs, FastAPI, and Python**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/kothapuli-vishnu-vardhan-reddy)

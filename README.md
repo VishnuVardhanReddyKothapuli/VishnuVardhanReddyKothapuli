@@ -1,254 +1,186 @@
 <div align="center">
 
-# Hi, I'm Vishnu Vardhan Reddy 👋
+# Vishnu Vardhan Reddy Kothapuli
 
-### Aspiring AI/ML Engineer| GenAI & RAG Developer | Python Developer
- 
-Building practical AI systems with **Machine Learning, Retrieval-Augmented Generation, LLMs, FastAPI, and Python**.
+### GenAI · RAG Systems · AI Engineering · Python Backend
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/kothapuli-vishnu-vardhan-reddy)
-[![Gmail](https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishnureddy93460@gmail.com)
+I build practical AI applications with a focus on retrieval quality, grounded answers, evaluation, and reliable backend systems.
+
+[![GitHub](https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white)](https://github.com/VishnuVardhanReddyKothapuli)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-111827?style=flat-square&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/kothapuli-vishnu-vardhan-reddy)
+[![Email](https://img.shields.io/badge/Email-111827?style=flat-square&logo=gmail&logoColor=white)](mailto:vishnureddy93460@gmail.com)
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About
 
-I'm an AI/ML developer focused on building **real-world AI applications rather than isolated notebook experiments**.
+```text
+Current focus   → GenAI, RAG, AI agents, and backend engineering
+Building        → Retrieval pipelines, grounded Q&A, content-safety tools, AI APIs
+Main stack      → Python, FastAPI, LangChain, React, vector databases, Docker
+Engineering     → Evaluation, latency, guardrails, reproducibility, reliability
+```
 
-- 🤖 Exploring **Generative AI, LLMs, and Agentic AI**
-- 📚 Building **Retrieval-Augmented Generation (RAG)** systems
-- 🧠 Working with **Machine Learning, NLP, and information retrieval**
-- ⚡ Developing AI backends using **Python and FastAPI**
-- 🔎 Exploring **vector databases, embeddings, and hybrid retrieval**
-- 🛡️ Interested in **AI safety, validation, and guardrails**
-- 🐳 Building and deploying applications with **Docker**
-- 📊 Focused on **evaluation, benchmarking, and reliable AI systems**
+I enjoy building AI systems that are more than demos: applications where retrieval can be evaluated, answers can be traced to evidence, and core behavior can be tested. My work sits at the intersection of **AI application engineering, information retrieval, and production-oriented backend development**.
 
-I enjoy taking projects from:
+## Featured Work
 
-**Data → Retrieval / ML Pipeline → API → Evaluation → Deployment**
+<table>
+<tr>
+<td width="50%" valign="top">
 
-🎯 **Goal:** Become an AI/ML Engineer capable of designing and building reliable production-grade AI systems.
+### [RepoScribe](https://github.com/VishnuVardhanReddyKothapuli/RepoScribe-with-RAG)
 
----
+**Evidence-grounded repository intelligence**
 
-# 🚀 Featured Projects
+A RAG-powered tool that analyzes source repositories and generates README documentation grounded in retrieved code.
 
-## 🔎 [RepoScribe — RAG-Powered GitHub README Generator](https://github.com/VishnuVardhanReddyKothapuli/RepoScribe-with-RAG)
+**Highlights**
+- BM25 retrieval with Gemini
+- Source-file and line provenance
+- Evidence-backed citations
+- Credential redaction and prompt-injection defenses
+- Retrieval and scalability evaluation
 
-AI system that analyzes public GitHub repositories and generates **source-grounded README documentation using Retrieval-Augmented Generation**.
+**Reported evaluation**
+- 87.5% macro Recall@10
+- 14 Python regression tests passing
+- Retrieval latency and scale tested
 
-### Highlights
+`Python` `FastAPI` `BM25` `Gemini` `RAG` `React` `TypeScript`
 
-- Built a retrieval pipeline using **BM25 + Gemini**
-- Preserves source file and line provenance
-- Generates source-backed citations
-- Includes credential redaction and prompt-injection protections
-- Built reproducible retrieval and scalability evaluations
-- Achieved **87.5% macro Recall@10**
-- Achieved **≤ 1.83 ms baseline retrieval p95 latency**
-- Stress-tested on **840 files / 1,340 chunks**
-- Maintained approximately **7.86 ms p95 retrieval latency** at maximum tested scale
-- **14 Python regression tests passing**
-- **4/4 guardrail controls passed**
+</td>
+<td width="50%" valign="top">
 
-**Tech:** `Python` `FastAPI` `RAG` `BM25` `Gemini` `React` `TypeScript` `Render`
+### [Sentinal](https://github.com/VishnuVardhanReddyKothapuli/Sentinal)
 
----
+**AI content safety platform**
 
-## 🛡️ [Sentinal — AI Content Safety Platform](https://github.com/VishnuVardhanReddyKothapuli/Sentinal)
+A full-stack platform for image and video safety analysis, similarity detection, and moderation workflows.
 
-Full-stack AI platform for analyzing images and videos for **content safety, similarity detection, OCR, and moderation workflows**.
-
-### Features
-
-- Image and video safety analysis
-- OpenCLIP-based similarity detection
-- Tesseract OCR
+**Highlights**
+- Content analysis and similarity checks
+- OpenCLIP-based image representations
+- OCR with Tesseract
 - Qdrant vector search
-- JWT authentication
-- Role-based administration
+- JWT authentication and role-based administration
 - Analysis history and audit events
-- FastAPI backend
-- React frontend
-- Dockerized architecture
 
-**Tech:** `Python` `FastAPI` `React` `Qdrant` `OpenCLIP` `Hugging Face` `SQLAlchemy` `JWT` `Docker`
+`Python` `FastAPI` `React` `Qdrant` `OpenCLIP` `SQLAlchemy` `Docker`
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-## 📄 [Local RAG PDF Q&A Bot](https://github.com/VishnuVardhanReddyKothapuli/Local-RAG-PDF-QnA-Bot)
+### [Local RAG PDF Q&A Bot](https://github.com/VishnuVardhanReddyKothapuli/Local-RAG-PDF-QnA-Bot)
 
-Privacy-first RAG system that lets users upload PDF documents and ask questions while keeping the AI pipeline local.
+**Local-first document question answering**
 
-### RAG Pipeline
+A document Q&A application designed to retrieve relevant PDF passages and answer questions using a locally served language model.
 
-```text
-PDF
- ↓
-Text Extraction
- ↓
-Chunking
- ↓
-Hugging Face Embeddings
- ↓
-ChromaDB
- ↓
-Semantic Retrieval
- ↓
-Llama 3.2 via Ollama
- ↓
-Context-Aware Answer
-```
-
-**Tech:** `Python` `FastAPI` `LangChain` `Ollama` `Llama 3.2` `Hugging Face` `ChromaDB` `Docker`
-
----
-
-## 📝 [End-to-End Text Summarizer](https://github.com/VishnuVardhanReddyKothapuli/End-to-end-Text-Summarizer)
-
-End-to-end NLP pipeline for text summarization using **Google PEGASUS and the SAMSum dataset**.
-
-### Pipeline
+**Pipeline**
 
 ```text
-Data Ingestion
-      ↓
-Data Validation
-      ↓
-Data Transformation
-      ↓
-Model Training
-      ↓
-Model Evaluation
-      ↓
-FastAPI Prediction Service
+PDF → Text Extraction → Chunking
+    → Embeddings → ChromaDB
+    → Retrieval → Ollama / Llama
+    → Context-aware Answer
 ```
 
-**Tech:** `Python` `Transformers` `Hugging Face` `PEGASUS` `FastAPI` `NLP`
+`Python` `LangChain` `FastAPI` `ChromaDB` `Ollama` `Hugging Face`
 
----
+</td>
+<td width="50%" valign="top">
 
-## 📚 [Document Q&A RAG](https://github.com/VishnuVardhanReddyKothapuli/Document-QnA-RAG)
+### [TripPilot](https://github.com/VishnuVardhanReddyKothapuli/TripPilot)
 
-Document question-answering system powered by **Retrieval-Augmented Generation**.
+**AI-powered trip planning project**
 
-Users can upload PDFs and ask natural-language questions based on their document content.
+An AI-oriented project exploring how language models and tool integrations can support travel planning and multi-step workflows.
 
-**Tech:** `FastAPI` `LangChain` `ChromaDB` `Hugging Face Embeddings` `Groq` `Llama` `Docker`
+**Focus areas**
+- AI-assisted planning
+- Tool and API integration
+- Multi-step task orchestration
+- Backend service design
 
----
+See the repository for the current implementation and supported features.
 
-# 💻 Tech Stack
+`Python` `LLM Applications` `APIs` `Agent Workflows`
 
-## 🧑‍💻 Languages
+</td>
+</tr>
+</table>
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+## More Projects
 
----
+| Project | What it explores |
+|---|---|
+| [End-to-end Text Summarizer](https://github.com/VishnuVardhanReddyKothapuli/End-to-end-Text-Summarizer) | NLP summarization pipeline using PEGASUS and the SAMSum dataset |
+| [Document Q&A RAG](https://github.com/VishnuVardhanReddyKothapuli/Document-QnA-RAG) | Document question answering with retrieval-augmented generation |
+| [Fraud Detection](https://github.com/VishnuVardhanReddyKothapuli/Fraud-Detection) | Machine-learning workflow for identifying potentially fraudulent transactions |
+| [E-commerce Data Analysis](https://github.com/VishnuVardhanReddyKothapuli/Ecommerce-Data-Analysis-MySQL-Python) | Data analysis using SQL and Python |
+| [Portfolio](https://github.com/VishnuVardhanReddyKothapuli/portfolio) | Portfolio website and project showcase |
 
-## 🤖 AI / Machine Learning
+## What I Work With
 
-![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=python&logoColor=black)
-
----
-
-## 🧠 Generative AI / RAG
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-Retrieval_Augmented_Generation-6C63FF?style=for-the-badge)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge)
-
----
-
-## ⚙️ Backend & Databases
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-
----
-
-## 🎨 Frontend
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
----
-
-## 🛠️ Development & Deployment
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
----
-
-# 📊 GitHub Stats
+<table>
+<tr>
+<td valign="top"><strong>AI / GenAI</strong></td>
+<td>Retrieval-Augmented Generation · LLMs · Prompt Engineering · Tool Calling · Grounding · Guardrails · LLM Evaluation</td>
+</tr>
+<tr>
+<td valign="top"><strong>Retrieval</strong></td>
+<td>BM25 · Semantic Search · Embeddings · Chunking · Reranking concepts · Recall@K · Retrieval benchmarking</td>
+</tr>
+<tr>
+<td valign="top"><strong>Backend</strong></td>
+<td>Python · FastAPI · REST APIs · SQLAlchemy · Authentication · API Testing</td>
+</tr>
+<tr>
+<td valign="top"><strong>Data</strong></td>
+<td>MySQL · SQLite · ChromaDB · Qdrant · Pandas · NumPy · scikit-learn</td>
+</tr>
+<tr>
+<td valign="top"><strong>Frontend</strong></td>
+<td>React · TypeScript · JavaScript · HTML · CSS</td>
+</tr>
+<tr>
+<td valign="top"><strong>Engineering</strong></td>
+<td>Docker · Git · GitHub · Render · Vercel · Linux fundamentals · Testing and evaluation</td>
+</tr>
+</table>
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=VishnuVardhanReddyKothapuli&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VishnuVardhanReddyKothapuli&layout=compact&theme=github_dark&hide_border=true&langs_count=8" />
+<img src="https://skillicons.dev/icons?i=python,fastapi,react,typescript,javascript,sklearn,pytorch,mysql,docker,git,github,linux,vscode&theme=dark" alt="Technology stack icons" />
 
 </div>
 
-<br>
+## Engineering Interests
+
+- RAG quality, retrieval evaluation, and evidence-grounded answers
+- Improving retrieval and generation latency without sacrificing answer quality
+- Agent workflows, tool calling, and orchestration
+- Prompt-injection defense, validation, and AI safety
+- Reliable APIs, automated tests, and production-minded architecture
+- Machine learning evaluation and data-driven problem solving
+
+## GitHub Activity
 
 <div align="center">
 
-<img src="https://nirzak-streak-stats.vercel.app/?user=VishnuVardhanReddyKothapuli&theme=github-dark-blue&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=VishnuVardhanReddyKothapuli&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" height="165" alt="GitHub statistics" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VishnuVardhanReddyKothapuli&layout=compact&hide_border=true&theme=transparent&langs_count=8" height="165" alt="Most used languages" />
 
 </div>
 
----
-
-# 🎯 Currently Learning & Improving
-
-- 🧠 Advanced RAG architectures
-- 🤖 Agentic AI systems
-- 🔎 Hybrid and semantic retrieval
-- 📊 LLM evaluation and observability
-- 🛡️ AI safety and guardrails
-- ⚡ Production FastAPI architecture
-- 🗄️ Vector databases
-- 🧩 ML system design
-- 🤖 Robotics + AI research
-
----
-
-# 💼 Open To
-
-I'm interested in opportunities involving:
-
-**AI Engineering • Machine Learning • Generative AI • RAG • NLP • Python Development • AI/ML Internships**
-
----
-
-# 🤝 Connect With Me
-
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vishnu_Vardhan_Reddy-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/kothapuli-vishnu-vardhan-reddy-8a9928287)
-
-[![Gmail](https://img.shields.io/badge/Gmail-vishnureddy93460-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishnureddy93460@gmail.com)
+<img src="https://streak-stats.demolab.com?user=VishnuVardhanReddyKothapuli&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
 
 </div>
 
@@ -256,8 +188,8 @@ I'm interested in opportunities involving:
 
 <div align="center">
 
-### Build → Evaluate → Improve → Repeat 🚀
+**Build → Measure → Evaluate → Improve**
 
-![Profile Views](https://visitcount.itsvg.in/api?id=VishnuVardhanReddyKothapuli&icon=5&color=6)
+[GitHub](https://github.com/VishnuVardhanReddyKothapuli) · [LinkedIn](https://in.linkedin.com/in/kothapuli-vishnu-vardhan-reddy) · [Email](mailto:vishnureddy93460@gmail.com)
 
 </div>
